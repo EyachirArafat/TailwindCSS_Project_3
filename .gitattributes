@@ -1,0 +1,7 @@
+# Set LF for all text files
+* text=auto eol=lf
+
+# Enforce LF for specific file types
+*.json text eol=lf
+*.js text eol=lf
+*.css text eol=lf

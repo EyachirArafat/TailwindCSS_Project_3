@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/c4u full logo fav.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3974ac3c53.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tailwind.css">
+    <title>Welcome U | C4U</title>
+  </head>
+  <body class="bg-[#F1F4F5] text-gray-950 dark:text-gray-200 dark:bg-gray-950 transition-colors duration-500">
+    <!-- NAvbar section -->
+      <nav class="container-fluid px-6 md:py-4 py-3  bg-[#faf5f5] shadow-md w-full fixed z-40 dark:bg-gray-950 dark:text-gray-200">
+        <div class="flex items-center justify-between">
+          <a href="index.html"><img src="assets/c4u full logo_2022 1.png" alt="c4u logo.png"></a>
+          <div>
+            <ul class="items-center gap-4 font-semibold md:flex hidden">
+              <li class="nav-items text-[#F44335]"><a href="#">Home</a></li>
+              <li class="nav-items"><a href="#">About Us</a></li>
+              <li class="nav-items"><a href="#">Upskill</a></li>
+              <li class="nav-items"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="space-x-2 flex items-center justify-center">
+            <button class="reg-btn"><a href="#">Register Interest</a></button>
+
+            <i class="fa-solid fa-moon border flex items-center justify-center hover:bg-[#00FF84] size-9 p-3 rounded-full border-gray-500 hover:border-gray-900 hover:text-white transition-transform hover:scale-105 cursor-pointer" id="darkModeToggle"></i>
+
+            <i class="fa-solid fa-bars text-xl cursor-pointer md:hidden" onclick="document.querySelector('.mobile-menu').classList.toggle('hidden');"></i>
+
+            <ul class="mobile-menu absolute top-20 right-7 bg-[#faf5f5] shadow-md px-3 py-2 h-40 w-36 space-y-2 md:hidden hidden z-50 overflow-hidden dark:bg-gray-950">
+              <li class="nav-items"><a href="#">Home</a></li>
+              <li class="nav-items"><a href="#">About Us</a></li>
+              <li class="nav-items"><a href="#">Upskill</a></li>
+              <li class="nav-items"><a href="#">Contact Us</a></li>
+              <li><button class="reg-btn"><a href="#">Register Interest</a></button></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Banner section -->
+
+      <section class="container-fluid relative  md:h-[70vh] h-[50vh] bg-cover bg-center" style="background-image: url('assets/edwin-andrade-4V1dC_eoCwg-unsplash\ 1.png');">
+
+        <img class="absolute w-full bottom-0 overflow-hidden z-10" src="assets/Wave.svg" alt="wave">
+        <div class="absolute top-0 left-0 bg-[#F44335] h-full md:w-3 w-2  "></div>
+        <div class="text-white h-full flex flex-col items-center justify-center space-y-4">
+          <p class="font-bold">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage</p>
+
+          <div class="text-center font-semibold md:text-5xl text-2xl">
+            <h1>Connecting <span class="text-[#F44335] border-b-2 border-[#F44335]">talent</span> to</h1>
+            <h1>opportunity through <span class="text-[#F44335] border-b-2 border-[#F44335]">skills</span></h1>
+          </div>
+          <p class="w-2/3 text-center overflow-y-scroll">
+            We forster a skill-focussed environment enabling students to navigate their career with their self-paced learning journey and businesses to gain market-ready talent.
+          </p>
+          <button class="bg-white text-[#F44335] font-bold py-2 px-4 rounded-full transition-transform hover:bg-[#F44335] hover:text-white hover:scale-105 text-nowrap">Ask questions</button>
+        </div>
+      </section>
+
+      <!-- Empower section -->
+
+      <section class="container-fluid md:px-7 px-4 py-5">
+        <div class="grid grid-cols-12 gap-3 ">
+          <div class="md:col-span-3 col-span-12">
+            <div class="flex items-center md:justify-center p-4 m-auto md:h-full">
+              <p class="text-3xl font-bold text-nowrap">At <span class="text-[#F44335] border-b-2 border-[#F44335]">C4U</span>,<br>
+                We Empower:</p>
+            </div>
+          </div>
+          
+          <div class="md:col-span-3 col-span-12">
+            <div class="empower-card">
+              <img class="bg-white rounded-full w-8 p-1" src="assets/37.png" alt="students">
+              <h3 class="font-bold">Students</h3>
+              <p>We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market.</p>
+            </div>
+          </div>
+
+          <div class="md:col-span-3 col-span-12">
+            <div class="empower-card">
+              <img class="bg-white rounded-full w-8 p-1" src="assets/50.png" alt="Universities">
+              <h3 class="font-bold">Universities</h3>
+              <p>We help your emerging talent to unlock their full potential by combining education and work to create future-ready employees</p>
+            </div>
+          </div>
+
+          <div class="md:col-span-3 col-span-12">
+            <div class="empower-card">
+              <img class="bg-white rounded-full w-8 p-1" src="assets/16.png" alt="Businesses">
+              <h3 class="font-bold">Businesses</h3>
+              <p>We enable businesses to tap into the diverse pool of emerging talent cultivated by universities. To co-create the future workforce and revitalise the business world.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- About us - our mission section -->
+      <div class="relative">
+        <img class="absolute w-7 left-0 right-0 top-24 mx-auto hidden md:block" src="assets/Line and circle content.png" alt="">
+
+        <section class="container-fluid md:px-7 px-4 py-5 min-h-[50vh]
+        pb-6">
+          <div class="h-full w-full bg-cover bg-center" style="background-image: url('assets/Oval.png');">
+
+            <div class="grid grid-cols-12 m-auto">
+              <div class="md:col-span-6 col-span-12 flex flex-col  md:items-center justify-center md:m-auto">
+                <div class="space-y-7 p-4">
+                  <div class="space-y-2">
+                    <p class="text-[#F44335] font-bold uppercase">About us</p>
+                    <h3 class="text-2xl font-bold">Our Mission</h3>
+                  </div>
+                  <div class="">
+                    <p>To create a personalised  pathway for continuous <br>learning and transferrable skills development.</p>
+                  </div>
+              
+                  <button class="flex items-center gap-2 border-2 border-[#F44335] px-3 py-2 rounded-full text-[#F44335] transition-all duration-300 ease-in-out hover:bg-[#F44335] hover:text-white group">
+                    <p class="hover:font-bold">Find out more</p>
+                    <i class="fa-solid fa-arrow-right transform transition-transform duration-300 ease-in-out group-hover:translate-x-2"></i>
+                  </button>
+        
+                </div>
+              </div>
+              <div class="md:col-span-6 col-span-12 md:pb-0 pb-5">
+                <img class="object-cover w-full" src="assets/Group 238902.png" alt="">
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+
+        <section class="container-fluid md:px-7 px-4 py-5 min-h-[50vh]
+        pb-6">
+          <div class="h-full w-full bg-cover bg-center" style="background-image: url('assets/Oval.png');">
+
+            <div class="grid grid-cols-12 m-auto">
+              <div class="md:col-span-6 col-span-12 md:pb-0 pb-5">
+                <img class="object-cover w-full" src="assets/Right.png" alt="">
+              </div>
+
+              <div class="md:col-span-6 col-span-12 flex flex-col  md:items-center justify-center md:m-auto">
+                <div class="space-y-7 p-4">
+                  <div class="space-y-2">
+                    <p class="text-[#F44335] font-bold uppercase">About us</p>
+                    <h3 class="text-2xl font-bold">Our Vision</h3>
+                  </div>
+                  <div class="">
+                    <p>To have a globally recognised strategic bridge <br>between education and the job market</p>
+                  </div>
+              
+                  <button class="flex items-center gap-2 border-2 border-[#F44335] px-3 py-2 rounded-full text-[#F44335] transition-all duration-300 ease-in-out hover:bg-[#F44335] hover:text-white group">
+                    <p class="hover:font-bold">Contact us</p>
+                    <i class="fa-solid fa-arrow-right transform transition-transform duration-300 ease-in-out group-hover:translate-x-2"></i>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+        
+
+        <!-- Discover-Interact-Engage section -->
+
+        <section class="container-fluid md:pt-10 dark:bg-gray-950 bg-white">
+          <div class="grid grid-cols-12 gap-4 px-6">
+            <div class="md:col-span-4 col-span-12 shadow-md rounded-md" style="background-image: url(assets/1.png); background-position: right; background-repeat: no-repeat;">
+              <div class="flex flex-col space-y-4 p-6 h-full">
+                <img class="w-16" src="assets/Group 199.png" alt="Discover">
+                <div class="space-y-2">
+                  <h1 class="font-bold text-xl">Discover</h1>
+                  <p>We uncover students unique skills to stand out in a crowded job market</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-4 col-span-12 shadow-md rounded-md" style="background-image: url(assets/2.png); background-position: right; background-repeat: no-repeat;">
+              <div class="flex flex-col space-y-4 p-6 h-full">
+                <img class="w-16" src="assets/Group 199 (1).png" alt="Interact">
+                <div class="space-y-2">
+                  <h1 class="font-bold text-xl">Interact</h1>
+                  <p>We open doors to new opportunities by expanding your transferrable skills</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-4 col-span-12 shadow-md rounded-md" style="background-image: url(assets/3.png); background-position: right; background-repeat: no-repeat;">
+              <div class="flex flex-col space-y-4 p-6">
+                <img class="w-16" src="assets/Group 199 (2).png" alt="Engage">
+                <div class="space-y-2">
+                  <h1 class="font-bold text-xl">Engage</h1>
+                  <p>To forester a skill focussed environment that enable students to navigate their ideal career</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div> 
+
+      <!-- Creative team section -->
+
+      <section class="container-fluid relative">
+        
+        <div class="md:px-8 px-6 py-8" style="background-image: url(assets/Rectangle\ 32.png); background-repeat: no-repeat; background-position: top;background-size: contain;">
+          <div class="flex space-y-6">
+            <p class="text-3xl font-semibold">The Creative Team <br> behind <span class="text-[#F44335]">the door</span></p>
+            <img class="w-20" src="assets/Arrow_10.png" alt="arrow">
+          </div>
+          <!-- contact-info 1 -->
+           <div class="relative">
+            <img class="absolute bottom-0 left-0 -z-10" src="assets/Group 47269.png" alt="">
+            <img class="absolute top-0 right-0 -z-10" src="assets/Group 47270.png" alt="">
+          <div class="grid md:grid-cols-12 gap-4 p-4"> 
+            <div class="md:col-span-3 col-span-12">
+              <div class="contact-body">
+                <img class="w-20" src="assets/image 3.png" alt="Ekta Mahajan">
+                <div class="text-center space-y-1">
+                  <h3 class="text-xl font-bold">Ekta Mahajan</h3>
+                  <p>Founder & C.E.O</p>
+                </div>
+                <div class="contact-design">
+                  <a href="#"><i class="fa-solid fa-phone contact-info"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope-open-text contact-info"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin contact-info"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- contact-info 2 -->
+            <div class="md:col-span-3 col-span-12">
+              <div class="contact-body">
+                <img class="w-20" src="assets/image 4.png" alt="Ekta Mahajan">
+                <div class="text-center space-y-1">
+                  <h3 class="text-xl font-bold">Toby Potter-Drake</h3>
+                  <p>Product Manager Associate</p>
+                </div>
+                <div class="contact-design">
+                  <a href="#"><i class="fa-solid fa-phone contact-info"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope-open-text contact-info"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin contact-info"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- contact-info 3 -->
+            <div class="md:col-span-3 col-span-12">
+              <div class="contact-body">
+                <img class="w-20" src="assets/image 3.png" alt="Ekta Mahajan">
+                <div class="text-center space-y-1">
+                  <h3 class="text-xl font-bold">Ross Davies</h3>
+                  <p>Corporate Growth Associate</p>
+                </div>
+                <div class="contact-design">
+                  <a href="#"><i class="fa-solid fa-phone contact-info"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope-open-text contact-info"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin contact-info"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- contact-info 4 -->
+            <div class="md:col-span-3 col-span-12">
+              <div class="contact-body">
+                <img class="w-20" src="assets/image 3.png" alt="Ekta Mahajan">
+                <div class="text-center space-y-1">
+                  <h3 class="text-xl font-bold">Leo crozier</h3>
+                  <p>Software Developer</p>
+                </div>
+                <div class="contact-design">
+                  <a href="#"><i class="fa-solid fa-phone contact-info"></i></a>
+                  <a href="#"><i class="fa-solid fa-envelope-open-text contact-info"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin contact-info"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer section -->
+
+    <footer class="container-fluid pt-10">
+      <div class="grid grid-cols-12 space-y-6 flex-grow px-8 mb-10">
+        <div class="md:col-span-4 col-span-6">
+          <div class="flex flex-col gap-4">
+            <a href="index.html"><img class="w-30 py-5" src="assets/c4u full logo_2022 1.png" alt="logo"></a>
+            <address>
+              Level39 <br>
+              One Canada Square,<br>
+              Canary Wharf, <br>
+              London,<br>
+              E14 5AB
+            </address>
+          </div>
+        </div>
+
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Home</a>
+            <a href="#">Collaborations</a>
+            <a href="#">Statistics</a>
+            <a href="#">How It Works</a>
+            <a href="#">Testimonials</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">About Us</a>
+            <a href="#">Who We Are</a>
+            <a href="#">Mission statement </a>
+            <a href="#">Our Vision</a>
+            <a href="#">The Team</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Upskill</a>
+            <a href="#">It Support</a>
+            <a href="#">Project Managment</a>
+            <a href="#">Data Analysts</a>
+            <a href="#">Ux Design</a>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-6">
+          <div class="flex flex-col gap-3">
+            <a class="text-xl font-semibold" href="#">Contact Us</a>
+            <a href="#">Your message</a>
+            <a href="#">Email</a>
+            <a href="#">Phone number</a>
+            <a href="#">Linkedin</a>
+          </div>
+        </div>
+      </div>
+      <div class=""><hr class="border border-black dark:border-gray-300"></div>
+      <div class=" py-4 text-center text-lg font-semibold"> Copyright &copy;<span class="text-[#F44335]">EK</span> 2024 | All Rights Reserved</div>
+    </footer>
+        
+  
+      
+    <script type="module">
+      /*
+      const modeRun = document.getElementById('colorMode');
+      document.getElementById('switchMode').addEventListener("click", function(){
+        modeRun.classList.toggle("dark");
+      })
+      */
+  
+      const darkModeToggle = document.getElementById('darkModeToggle');
+  
+      darkModeToggle.addEventListener('click', function () {
+        document.documentElement.classList.toggle('dark');
+        
+        
+        if (document.documentElement.classList.contains('dark')) {
+          localStorage.setItem('theme', 'dark');
+        } else {
+          localStorage.setItem('theme', 'light');
+        }
+      });
+  
+      (function () {
+        const userTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  
+        if (userTheme === 'dark' || (!userTheme && systemPrefersDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+  
+      function navigateToSection() {
+        const dropdown = document.getElementById('dropdown');
+        const selectedValue = dropdown.value;
+  
+        if (selectedValue) {
+          const section = document.getElementById(selectedValue);
+  
+          if (section) {
+            section.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start',   
+              inline: 'nearest'
+            });
+          }
+        }
+      }
+  
+    </script>
+  </body>
+</html>

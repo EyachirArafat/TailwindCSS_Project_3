@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+  .nav-items{
+    @apply transition-transform hover:scale-105 hover:text-[#F44335] text-nowrap text-xl hover:bg-[#ecd3d3]
+  }
+
+  .reg-btn{
+    @apply border bg-[#F44335] text-white hover:bg-[#e6291c] font-semibold text-nowrap p-2 rounded-lg transition-transform hover:scale-105 md:block hidden
+  }
+
+  .empower-card{
+    @apply py-5 px-3 space-y-2 bg-[#2D3142] text-white rounded-xl transition-transform hover:scale-105 h-full hover:shadow-2xl
+  }
+
+  .contact-design{
+    @apply md:space-x-4 space-y-1 flex items-center justify-center md:flex-row flex-col
+  }
+
+  .contact-info{
+    @apply text-[#00FF84] bg-[#00FF84] bg-opacity-15 p-2 rounded-full hover:bg-opacity-90 hover:text-white
+  }
+
+  .contact-body{
+    @apply bg-white p-4 py-6 rounded-lg flex md:flex-col justify-between px-3 items-center space-y-3 shadow-lg h-full text-center dark:bg-gray-950 transition-transform hover:scale-105 hover:shadow-slate-50
+  }
+}

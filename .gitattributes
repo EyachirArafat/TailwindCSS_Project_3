@@ -1,7 +1,10 @@
-# Set LF for all text files
+# Ensure all text files have LF line endings
 * text=auto eol=lf
 
-# Enforce LF for specific file types
-*.json text eol=lf
+# Force LF for specific file types (e.g., JavaScript, JSON, CSS)
 *.js text eol=lf
+*.json text eol=lf
 *.css text eol=lf
+
+# Set LF line endings for the .gitattributes file itself
+.gitattributes text eol=lf
